@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Playwrite+HU:wght@100..400&display=swap');
+
+:root {
+    --azul: #26547cff;
+    --rosa: #ef476fff;
+    --amarelo: #ffd166ff;
+    --verde: #06d6a0ff;
+    --branco: #ffffff;
+    --preto: #000000;
+    --titulo: "Playwrite HU", cursive;
+    --texto: "Josefin Sans", sans-serif;
+}
+
+body{
+    background-color: var(--verde);
+    font-family: var(--texto);
+    margin: 0;
+    padding: 0;
+    color: var(--preto);
+}
+header{
+    background-color: var(--amarelo);
+    padding: 20px;
+    text-align: center;
+    color: var(--preto);
+    font-family: var(--titulo);
+}
